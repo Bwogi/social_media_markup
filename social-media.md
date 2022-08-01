@@ -587,6 +587,42 @@ router.post('/',[
 
 ## Getting started with the Reacts front-end
 
+Lets set up react within the social media folder called client. But we also need to set up concurrently to run both the frontend and the backend server together.
+
+> npx create-react-app client
+
+check if the reactjs server is running by running
+
+> npm start
+
+within the client folder
+
+To run the server and the client concurrently, we need to set it up within the package.json file.
+
+#### /package.json
+
+```json
+{
+	// lets add other scripts in here.
+
+	"client": "npm start --prefix client",
+	"dev": "concurrently \"npm run server\" \"npm run client\""
+}
+```
+
+We are going to add some dependencies for the client side. For example:
+
+1. axios - to make http requests. Could use the fetch API but we are doing specific things only axios can do.
+2. react-router-dom
+3. redux
+4. react-redux
+5. redux-thunk - which is middleware to allow us to make asynchronous requests
+6. redux-devtools-extension - We will also use react dev tools extensively in the course
+7. moment - date and time management
+8. react-moment - so that we can use moment with the components
+
+> npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
 ## Redux Setup & Alerts
 
 ## React User Authentication
