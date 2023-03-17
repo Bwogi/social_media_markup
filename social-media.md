@@ -3,7 +3,7 @@
 # Initialising the project
 1. Create the project folder and give it a name
 2. add a .gitignore file
-3. add to it node_moodules/ folder
+3. add to it node_modules/ folder
 4. initialise the repository by typing
 > git init
 > npm init 
