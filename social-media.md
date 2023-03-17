@@ -91,7 +91,7 @@ app.listen(PORT, () => console.log(`Server Running on http://localhost:${PORT}`)
 
 ```json
 {
-	"mongoURL": "mongodb+srv://<username>:<password>@devsocial.4ynvm.mongodb.net/?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://<username>:<password>@devsocial.4ynvm.mongodb.net/?retryWrites=true&w=majority"
 }
 ```
 
