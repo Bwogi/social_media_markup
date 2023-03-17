@@ -1,5 +1,14 @@
 # Documenting the process of creating a Social Media Site Fullstack Notes
 
+# Initialising the project
+1. Create the project folder and give it a name
+2. add a .gitignore file
+3. add to it node_moodules/ folder
+4. initialise the repository by typing
+> git init
+> npm init 
+5. Andwer all the questions and the license should be MIT
+
 ## Express & MongoDB Setup
 
 ### MongoDb Setup on MongoDB Atlas
