@@ -316,8 +316,8 @@ module.exports = User = mongoose.modal('user',UserSchema)
 router.post('/', (req, res) => {
 	console.log(req.body);
 	// but to use req.body, you need to initialise the middleware of the
-	// body parser. We used to install  body parser, bring it in
-	// and then initialise it but now its actuallly included with express
+	// body parser. We used to install  body parser but it now comes pre installed with express
+	// got to server.js and add the app.use() line as illustrated below.
 	res.send('User Route...');
 });
 ```
